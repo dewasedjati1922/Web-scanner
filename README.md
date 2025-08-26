@@ -1,21 +1,21 @@
-MIT License
+# Web Scanner (Educational)
 
-Copyright (c) 2025 Djendral
+> ⚠️ **Warning:** This tool is for educational use only. Do not scan targets without permission. Unauthorized scanning is illegal.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Features
+- Crawl website links (internal domain)
+- Detect possible **XSS** & **SQL Injection**
+- Directory fuzzing
+- Admin panel finder
+- Basic login brute force
+- TCP Port scanner
+- Generates reports:
+  - `scan_result.txt`
+  - `scan_report.html`
+  - `scan_report.pdf`
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## Install
+```bash
+git clone https://github.com/dewasedjati1922/web-scanner.git
+cd web-scanner
+pip install -r requirements.txt

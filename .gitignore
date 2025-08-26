@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+scan_result.txt
+scan_report.html
+scan_report.pdf
